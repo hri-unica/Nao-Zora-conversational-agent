@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="sentimentanalysis-b4f596">
+ <names>
+  <name lang="en_US">SentimentAnalysis</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="Chat">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Chat</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="generic">
+   <topic path="generic/generic_enu.top" language="en_US"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="stt">
+   <topic path="stt/stt_enu.top" language="en_US"/>
+  </dialogContent>
+ </contents>
+</package>
